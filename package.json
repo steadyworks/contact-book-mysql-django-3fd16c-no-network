@@ -1,0 +1,12 @@
+{
+  "name": "contact-book-mysql-django",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "pytest tests/test_api.py -v"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
